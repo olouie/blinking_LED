@@ -9,3 +9,5 @@ while (True):
 	time.sleep(0.5)
 	GPIO.output(18, False)
 	time.sleep(0.5)
+
+GPIO.cleanup()
